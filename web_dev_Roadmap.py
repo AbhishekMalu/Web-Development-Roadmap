@@ -1,6 +1,5 @@
 import json
 import streamlit as st
-import webbrowser
 import requests
 from streamlit_lottie import st_lottie
 
