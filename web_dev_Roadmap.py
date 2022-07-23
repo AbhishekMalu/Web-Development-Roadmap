@@ -81,20 +81,166 @@ st.write(" ")
 with st.container():
     left, center, right= st.columns(3)
     with left:
-        st.markdown("""<p style="text-align: center; font-weight:bold">HTML</p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://img.icons8.com/color/48/FFFFFF/html-5--v1.png"/>HTML</p>""",unsafe_allow_html=True)
         st.write(" HTML stands for Hypertext Markup Language used to build the structure of a web page. HTML is used to describe the structure of information on a web page. HTML5 is the latest evolution of the standard that defines HTML.")
-        if st.button('HTML Doc'):
-            webbrowser.open_new_tab("https://www.w3schools.com/html/")
+        st.markdown("""
+        <style>
+            .button {
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: 200;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.40rem;
+            margin: 0px;
+            width: auto;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid rgba(49, 51, 63, 0.2);
+            }
+            .button:hover{
+                border: 1px solid #FF4B4B;
+                color : #FF4B4B;
+            }
+            .button:after {
+            content: "";
+            background: #FF4B4B;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px!important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+            }
+            .button:focus {
+                box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                outline: none;
+            }
+            .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+            }
+        </style>
+        <a href="https://www.w3schools.com/html/"><button class="button">HTML Doc</button></a>
+        """,unsafe_allow_html=True)
     with center:
-        st.markdown("""<p style="text-align: center; font-weight:bold">CSS</p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://img.icons8.com/color/48/000000/css3.png"/>CSS</p>""",unsafe_allow_html=True)
         st.write("CSS stands for Cascading Style Sheets. It is a style sheet language which is used to describe the look and formatting of a document written in markup language. CSS4 is the latest version of CSS.")
-        if st.button('CSS Doc'):
-            webbrowser.open_new_tab("https://www.w3schools.com/css/")
+
+        st.markdown("""
+        <style>
+            .button {
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: 200;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.40rem;
+            margin: 0px;
+            width: auto;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid rgba(49, 51, 63, 0.2);
+            }
+            .button:hover{
+                border: 1px solid #FF4B4B;
+                color : #FF4B4B;
+            }
+            .button:after {
+            content: "";
+            background: #FF4B4B;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px!important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+            }
+            .button:focus {
+                box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                outline: none;
+            }
+            .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+            }
+        </style>
+        <a href="https://www.w3schools.com/css/"><button class="button">CSS Doc</button></a>
+        """,unsafe_allow_html=True)
+
     with right:
-        st.markdown("""<p style="text-align: center; font-weight:bold">JavaScript</p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://img.icons8.com/fluency/48/000000/javascript.png"/>JavaScript</p>""",unsafe_allow_html=True)
         st.write("This is the programming language of the web. Learn about DOM (Document Object Model), and API (Application Program Interface) properly.JavaScript is a necessary component for adding dynamic features to your website. The JavaScript programming language is based on the underlying ECMAScript specification. Learning JavaScript from the ground up is a critical step toward launching your web development career.")
-        if st.button('JavaScript Doc'):
-            webbrowser.open_new_tab("https://www.w3schools.com/js/")
+        st.markdown("""
+        <style>
+            .button {
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: 200;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.40rem;
+            margin: 0px;
+            width: auto;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid rgba(49, 51, 63, 0.2);
+            }
+            .button:hover{
+                border: 1px solid #FF4B4B;
+                color : #FF4B4B;
+            }
+            .button:after {
+            content: "";
+            background: #FF4B4B;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px!important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+            }
+            .button:focus {
+                box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                outline: none;
+            }
+            .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+            }
+        </style>
+        <a href="https://www.w3schools.com/js/"><button class="button">JavaScript Doc</button></a>
+        """,unsafe_allow_html=True)
 
 with st.container():
         leftcol, centercol, rightcol = st.columns([1,3.9,1])
@@ -106,25 +252,221 @@ st.write(" ")
 with st.container():
     left, left_center, right_center, right= st.columns(4)
     with left:
-        st.markdown("""<p style="text-align: center; font-weight:bold">React</p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://img.icons8.com/color/48/40C057/react-native.png"/> React</p>""",unsafe_allow_html=True)
         st.write(" React is a JavaScript library for building user interfaces. React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. It is an open-source, component-based front end library responsible only for the view layer of the application. It is maintained by Facebook.")
-        if st.button('React Doc'):
-            webbrowser.open_new_tab("https://www.w3schools.com/react/")
+        st.markdown("""
+        <style>
+            .button {
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: 200;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.40rem;
+            margin: 0px;
+            width: auto;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid rgba(49, 51, 63, 0.2);
+            }
+            .button:hover{
+                border: 1px solid #FF4B4B;
+                color : #FF4B4B;
+            }
+            .button:after {
+            content: "";
+            background: #FF4B4B;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px!important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+            }
+            .button:focus {
+                box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                outline: none;
+            }
+            .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+            }
+        </style>
+        <a href="https://www.w3schools.com/react/"><button class="button">React Doc</button></a>
+        """,unsafe_allow_html=True)
+
     with left_center:
-        st.markdown("""<p style="text-align: center; font-weight:bold">Angular</p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://img.icons8.com/color/48/000000/angularjs.png"/>Angular</p>""",unsafe_allow_html=True)
         st.write("Angular is a platform and framework for building single-page client applications using HTML and TypeScript. Angular is written in TypeScript. It implements core and optional functionality as a set of TypeScript libraries that you import into your applications.")
-        if st.button('Angular Doc'):
-            webbrowser.open_new_tab("https://www.w3schools.com/angular/")
+        st.markdown("""
+        <style>
+            .button {
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: 200;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.40rem;
+            margin: 0px;
+            width: auto;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid rgba(49, 51, 63, 0.2);
+            }
+            .button:hover{
+                border: 1px solid #FF4B4B;
+                color : #FF4B4B;
+            }
+            .button:after {
+            content: "";
+            background: #FF4B4B;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px!important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+            }
+            .button:focus {
+                box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                outline: none;
+            }
+            .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+            }
+        </style>
+        <a href="https://www.w3schools.com/angular/"><button class="button">Angular Doc</button></a>
+        """,unsafe_allow_html=True)
+
     with right_center:
-        st.markdown("""<p style="text-align: center; font-weight:bold">Tailwind CSS</p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> Tailwind CSS</p>""",unsafe_allow_html=True)
         st.write("Tailwind CSS is basically a utility-first CSS framework for rapidly building custom user interfaces. It is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override")
-        if st.button('Tailwind CSS Doc'):
-            webbrowser.open_new_tab("https://v2.tailwindcss.com/docs")
+        st.markdown("""
+        <style>
+            .button {
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: 200;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.40rem;
+            margin: 0px;
+            width: auto;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid rgba(49, 51, 63, 0.2);
+            }
+            .button:hover{
+                border: 1px solid #FF4B4B;
+                color : #FF4B4B;
+            }
+            .button:after {
+            content: "";
+            background: #FF4B4B;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px!important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+            }
+            .button:focus {
+                box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                outline: none;
+            }
+            .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+            }
+        </style>
+        <a href="https://v2.tailwindcss.com/docs"><button class="button">Tailwind CSS Doc</button></a>
+        """,unsafe_allow_html=True)
+
     with right:
-        st.markdown("""<p style="text-align: center; font-weight:bold">Bootstrap</p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>Bootstrap</p>""",unsafe_allow_html=True)
         st.write("Bootstrap is a free and open-source tool collection for creating responsive websites and web applications. It is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first web sites.")
-        if st.button('Bootstrap Doc'):
-            webbrowser.open_new_tab("https://www.w3schools.com/bootstrap/")
+        st.markdown("""
+        <style>
+            .button {
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: 200;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.40rem;
+            margin: 0px;
+            width: auto;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid rgba(49, 51, 63, 0.2);
+            }
+            .button:hover{
+                border: 1px solid #FF4B4B;
+                color : #FF4B4B;
+            }
+            .button:after {
+            content: "";
+            background: #FF4B4B;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px!important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+            }
+            .button:focus {
+                box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                outline: none;
+            }
+            .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+            }
+        </style>
+        <a href="https://www.w3schools.com/bootstrap/"><button class="button">Bootstrap Doc</button></a>
+        """,unsafe_allow_html=True)
+
 st.write("---")
 st.markdown("""#### 3. Backend Development""")
 st.markdown("""The code that runs on the server, has logic to send the appropriate data from the client and receive it from the server. Also, it includes the database which stores all of the data of the application. It consists of three parts: a server, an application, and a database. Here, the code written by developers transfers information from the database to the browser. Code written by back-end developers communicates information from the database to the browser.""")
@@ -134,26 +476,219 @@ st.write(" ")
 with st.container():
     left, left_center, right_center, right= st.columns(4)
     with left:
-        st.markdown("""<p style="text-align: center; font-weight:bold">JavaScript</p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png"/>JavaScript</p>""",unsafe_allow_html=True)
         st.write("Java script can be used as both (front end and back end) programming languages. Learning JavaScript from the ground up is a critical step toward launching your web development career. Knowledge of JavaScript is required for many frameworks on the frontend (Angular, React, Vue.js) and backend (Node.js).")
-        if st.button('Js Doc'):
-            webbrowser.open_new_tab("https://www.w3schools.com/js/")
-    with left_center:
-        st.markdown("""<p style="text-align: center; font-weight:bold">Python</p>""",unsafe_allow_html=True)
-        st.write(" Python is one of the most popular programming languages among businesses in 2020. If you haven’t yet added Python to your programming toolbox, now is the time to start. If you’re interested in learning Python for web development, you should look into Python web programming frameworks like Django or Flask.")
-        if st.button('Python Doc'):
-            webbrowser.open_new_tab("https://www.w3schools.com/python/")
-    with right_center:
-        st.markdown("""<p style="text-align: center; font-weight:bold">Java</p>""",unsafe_allow_html=True)
-        st.write("Java is another exemplary programming language for backend web development. The object-oriented programming language is widely used for developing enterprise-scale web applications along with the development of android applications, desktop applications, scientific applications, etc.Other additional features of Java are – platform-independent, follows the OOP concepts, rich open-source libraries, automatic memory allocation & garbage collection, portability, etc.")
-        if st.button('Java Doc'):
-            webbrowser.open_new_tab("https://www.w3schools.com/java/")
-    with right:
-        st.markdown("""<p style="text-align: center; font-weight:bold">PHP</p>""",unsafe_allow_html=True)
-        st.write("PHP is an acronym for “PHP: Hypertext Preprocessor”. PHP is a server-side scripting language designed specifically for web development. Since, PHP code executed on server side so it is called server side scripting language. It is a widely-used, open source scripting language.")
-        if st.button('PHP Doc'):
-            webbrowser.open_new_tab("https://www.w3schools.com/php/")
+        st.markdown("""
+        <style>
+            .button {
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: 200;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.40rem;
+            margin: 0px;
+            width: auto;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid rgba(49, 51, 63, 0.2);
+            }
+            .button:hover{
+                border: 1px solid #FF4B4B;
+                color : #FF4B4B;
+            }
+            .button:after {
+            content: "";
+            background: #FF4B4B;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px!important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+            }
+            .button:focus {
+                box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                outline: none;
+            }
+            .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+            }
+        </style>
+        <a href="https://www.w3schools.com/js/"><button class="button">JS Doc</button></a>
+        """,unsafe_allow_html=True)
 
+    with left_center:
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://img.icons8.com/color/48/000000/python--v1.png"/>Python</p>""",unsafe_allow_html=True)
+        st.write(" Python is one of the most popular programming languages among businesses in 2020. If you haven’t yet added Python to your programming toolbox, now is the time to start. If you’re interested in learning Python for web development, you should look into Python web programming frameworks like Django or Flask.")
+        st.markdown("""
+        <style>
+            .button {
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: 200;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.40rem;
+            margin: 0px;
+            width: auto;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid rgba(49, 51, 63, 0.2);
+            }
+            .button:hover{
+                border: 1px solid #FF4B4B;
+                color : #FF4B4B;
+            }
+            .button:after {
+            content: "";
+            background: #FF4B4B;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px!important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+            }
+            .button:focus {
+                box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                outline: none;
+            }
+            .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+            }
+        </style>
+        <a href="https://www.w3schools.com/python/"><button class="button">Python Doc</button></a>
+        """,unsafe_allow_html=True)
+
+    with right_center:
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"/>Java</p>""",unsafe_allow_html=True)
+        st.write("Java is another exemplary programming language for backend web development. The object-oriented programming language is widely used for developing enterprise-scale web applications along with the development of android applications, desktop applications, scientific applications, etc.Other additional features of Java are – platform-independent, follows the OOP concepts, rich open-source libraries, automatic memory allocation & garbage collection, portability, etc.")
+        st.markdown("""
+        <style>
+            .button {
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: 200;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.40rem;
+            margin: 0px;
+            width: auto;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid rgba(49, 51, 63, 0.2);
+            }
+            .button:hover{
+                border: 1px solid #FF4B4B;
+                color : #FF4B4B;
+            }
+            .button:after {
+            content: "";
+            background: #FF4B4B;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px!important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+            }
+            .button:focus {
+                box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                outline: none;
+            }
+            .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+            }
+        </style>
+        <a href="https://www.w3schools.com/java/"><button class="button">Java Doc</button></a>
+        """,unsafe_allow_html=True)
+    with right:
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://img.icons8.com/officel/16/000000/php-logo.png" width="40" height="40"/> PHP</p>""",unsafe_allow_html=True)
+        st.write("PHP is an acronym for “PHP: Hypertext Preprocessor”. PHP is a server-side scripting language designed specifically for web development. Since, PHP code executed on server side so it is called server side scripting language. It is a widely-used, open source scripting language.")
+        st.markdown("""
+        <style>
+            .button {
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: 200;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.40rem;
+            margin: 0px;
+            width: auto;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid rgba(49, 51, 63, 0.2);
+            }
+            .button:hover{
+                border: 1px solid #FF4B4B;
+                color : #FF4B4B;
+            }
+            .button:after {
+            content: "";
+            background: #FF4B4B;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px!important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+            }
+            .button:focus {
+                box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                outline: none;
+            }
+            .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+            }
+        </style>
+        <a href="https://www.w3schools.com/php/"><button class="button">PHP Doc</button></a>
+        """,unsafe_allow_html=True)
 with st.container():
         leftcol, centercol, rightcol = st.columns([1,3.9,1])
         with centercol:
@@ -164,25 +699,217 @@ st.write(" ")
 with st.container():
     left, left_center, right_center, right= st.columns(4)
     with left:
-        st.markdown("""<p style="text-align: center; font-weight:bold">Django</p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/>Django</p>""",unsafe_allow_html=True)
         st.write(" Django is completely written in Python. If you like the elegance of the Python programming language you’ll like the Django. Django is a powerful framework and serves you for a wide range of use cases. However, if you have gained a profound understanding of Python, Django is easy to learn and you’ll discover the pragmatic approach very quickly.")
-        if st.button('Django Doc'):
-            webbrowser.open_new_tab("https://www.w3schools.com/django/")
+        st.markdown("""
+        <style>
+            .button {
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: 200;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.40rem;
+            margin: 0px;
+            width: auto;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid rgba(49, 51, 63, 0.2);
+            }
+            .button:hover{
+                border: 1px solid #FF4B4B;
+                color : #FF4B4B;
+            }
+            .button:after {
+            content: "";
+            background: #FF4B4B;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px!important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+            }
+            .button:focus {
+                box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                outline: none;
+            }
+            .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+            }
+        </style>
+        <a href="https://www.w3schools.com/django/"><button class="button">Django Doc</button></a>
+        """,unsafe_allow_html=True)
     with left_center:
-        st.markdown("""<p style="text-align: center; font-weight:bold">Node.js</p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://img.icons8.com/color/48/000000/nodejs.png"/> Node.js</p>""",unsafe_allow_html=True)
         st.write("Angular is a platform and framework for building single-page client applications using HTML and TypeScript. Angular is written in TypeScript. It implements core and optional functionality as a set of TypeScript libraries that you import into your applications.")
-        if st.button('Node.js Doc'):
-            webbrowser.open_new_tab("https://www.w3schools.com/nodejs/")
+        st.markdown("""
+        <style>
+            .button {
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: 200;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.40rem;
+            margin: 0px;
+            width: auto;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid rgba(49, 51, 63, 0.2);
+            }
+            .button:hover{
+                border: 1px solid #FF4B4B;
+                color : #FF4B4B;
+            }
+            .button:after {
+            content: "";
+            background: #FF4B4B;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px!important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+            }
+            .button:focus {
+                box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                outline: none;
+            }
+            .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+            }
+        </style>
+        <a href="https://www.w3schools.com/nodejs/"><button class="button">Node.Js Doc</button></a>
+        """,unsafe_allow_html=True)
     with right_center:
-        st.markdown("""<p style="text-align: center; font-weight:bold">Express</p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> Express</p>""",unsafe_allow_html=True)
         st.write("Express is a MEAN stack back-end component along with the AngularJS frontend framework and NoSQL databases. Express is viewed as one of the best web application development frameworks.It is used for building APIs and web applications and is considered as a standard Node.js server framework.")
-        if st.button('Express Doc'):
-            webbrowser.open_new_tab("https://www.javatpoint.com/expressjs-tutorial")
+        st.markdown("""
+            <style>
+                .button {
+                position: relative;
+                background-color: rgb(255, 255, 255);
+                border: none;
+                font-size: inherit;
+                font-family: inherit;
+                font-weight: 200;
+                padding: 0.25rem 0.75rem;
+                border-radius: 0.40rem;
+                margin: 0px;
+                width: auto;
+                text-align: center;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
+                text-decoration: none;
+                overflow: hidden;
+                cursor: pointer;
+                border: 1px solid rgba(49, 51, 63, 0.2);
+                }
+                .button:hover{
+                    border: 1px solid #FF4B4B;
+                    color : #FF4B4B;
+                }
+                .button:after {
+                content: "";
+                background: #FF4B4B;
+                display: block;
+                position: absolute;
+                padding-top: 300%;
+                padding-left: 350%;
+                margin-left: -20px!important;
+                margin-top: -120%;
+                opacity: 0;
+                transition: all 0.8s
+                }
+                .button:focus {
+                    box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                    outline: none;
+                }
+                .button:active:after {
+                padding: 0;
+                margin: 0;
+                opacity: 1;
+                transition: 0s
+                }
+            </style>
+            <a href="https://www.javatpoint.com/expressjs-tutorial"><button class="button">Express Doc</button></a>
+            """,unsafe_allow_html=True)
     with right:
-        st.markdown("""<p style="text-align: center; font-weight:bold">Laravel</p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> Laravel</p>""",unsafe_allow_html=True)
         st.write("Node.js enables you to execute JavaScript code at the backend and is extremely powerful especially if Node.js is used together with the Express middleware. It is cross-platform runtime environment for executing JavaScript code outside a browser. You need to remember that NodeJS is not a framework and it’s not a programming language.")
-        if st.button('Laravel Doc'):
-            webbrowser.open_new_tab("https://www.tutorialspoint.com/laravel/index.htm")
+        st.markdown("""
+            <style>
+                .button {
+                position: relative;
+                background-color: rgb(255, 255, 255);
+                border: none;
+                font-size: inherit;
+                font-family: inherit;
+                font-weight: 200;
+                padding: 0.25rem 0.75rem;
+                border-radius: 0.40rem;
+                margin: 0px;
+                width: auto;
+                text-align: center;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
+                text-decoration: none;
+                overflow: hidden;
+                cursor: pointer;
+                border: 1px solid rgba(49, 51, 63, 0.2);
+                }
+                .button:hover{
+                    border: 1px solid #FF4B4B;
+                    color : #FF4B4B;
+                }
+                .button:after {
+                content: "";
+                background: #FF4B4B;
+                display: block;
+                position: absolute;
+                padding-top: 300%;
+                padding-left: 350%;
+                margin-left: -20px!important;
+                margin-top: -120%;
+                opacity: 0;
+                transition: all 0.8s
+                }
+                .button:focus {
+                    box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                    outline: none;
+                }
+                .button:active:after {
+                padding: 0;
+                margin: 0;
+                opacity: 1;
+                transition: 0s
+                }
+            </style>
+            <a href="https://www.tutorialspoint.com/laravel/index.htm"><button class="button">Laravel Doc</button></a>
+            """,unsafe_allow_html=True)
 st.write("---")
 st.markdown("""#### 4. Database""")
 st.markdown("""The database is a collection of data from which we can manage data (store and retrieve). There are two types of databases: relational (SQL) and non-relational (NoSQL).The popular database is MySQL, MongoDB, Redis, Oracle, SQLServer and so on. As a document-type database, MongoDB, is being used more widely in Internet products.""")
@@ -190,20 +917,164 @@ st.write(" ")
 with st.container():
     left, center, right= st.columns(3)
     with left:
-        st.markdown("""<p style="text-align: center; font-weight:bold">MySQL</p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://img.icons8.com/color/48/000000/mysql-logo.png"/> MySQL</p>""",unsafe_allow_html=True)
         st.write("MySQL is another open-source relational database management system that is widely used for web-based applications. It is a fast and high-performance database that provides better scalability, usability, and reliability.")
-        if st.button('MySQL Doc'):
-            webbrowser.open_new_tab("https://www.w3schools.com/mySQl/")
+        st.markdown("""
+            <style>
+                .button {
+                position: relative;
+                background-color: rgb(255, 255, 255);
+                border: none;
+                font-size: inherit;
+                font-family: inherit;
+                font-weight: 200;
+                padding: 0.25rem 0.75rem;
+                border-radius: 0.40rem;
+                margin: 0px;
+                width: auto;
+                text-align: center;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
+                text-decoration: none;
+                overflow: hidden;
+                cursor: pointer;
+                border: 1px solid rgba(49, 51, 63, 0.2);
+                }
+                .button:hover{
+                    border: 1px solid #FF4B4B;
+                    color : #FF4B4B;
+                }
+                .button:after {
+                content: "";
+                background: #FF4B4B;
+                display: block;
+                position: absolute;
+                padding-top: 300%;
+                padding-left: 350%;
+                margin-left: -20px!important;
+                margin-top: -120%;
+                opacity: 0;
+                transition: all 0.8s
+                }
+                .button:focus {
+                    box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                    outline: none;
+                }
+                .button:active:after {
+                padding: 0;
+                margin: 0;
+                opacity: 1;
+                transition: 0s
+                }
+            </style>
+            <a href="https://www.w3schools.com/mySQl/"><button class="button">MySQL Doc</button></a>
+            """,unsafe_allow_html=True)
     with center:
-        st.markdown("""<p style="text-align: center; font-weight:bold">MongoDB</p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center; font-weight:bold"><img src="https://img.icons8.com/color/48/000000/mongodb.png"/> MongoDB</p>""",unsafe_allow_html=True)
         st.write("MongoDB is a free and open-source document-oriented database that is very much popular among web developers. This NoSQL database uses JSON-like documents with optional schemas for storage & retrieval of data and comes up with much-needed scalability and flexibility. MongoDB provides you with numerous prominent features.")
-        if st.button('MongoDB Doc'):
-            webbrowser.open_new_tab("https://www.javatpoint.com/mongodb-tutorial")
+        st.markdown("""
+            <style>
+                .button {
+                position: relative;
+                background-color: rgb(255, 255, 255);
+                border: none;
+                font-size: inherit;
+                font-family: inherit;
+                font-weight: 200;
+                padding: 0.25rem 0.75rem;
+                border-radius: 0.40rem;
+                margin: 0px;
+                width: auto;
+                text-align: center;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
+                text-decoration: none;
+                overflow: hidden;
+                cursor: pointer;
+                border: 1px solid rgba(49, 51, 63, 0.2);
+                }
+                .button:hover{
+                    border: 1px solid #FF4B4B;
+                    color : #FF4B4B;
+                }
+                .button:after {
+                content: "";
+                background: #FF4B4B;
+                display: block;
+                position: absolute;
+                padding-top: 300%;
+                padding-left: 350%;
+                margin-left: -20px!important;
+                margin-top: -120%;
+                opacity: 0;
+                transition: all 0.8s
+                }
+                .button:focus {
+                    box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                    outline: none;
+                }
+                .button:active:after {
+                padding: 0;
+                margin: 0;
+                opacity: 1;
+                transition: 0s
+                }
+            </style>
+            <a href="https://www.javatpoint.com/mongodb-tutorial"><button class="button">MongoDB Doc</button></a>
+            """,unsafe_allow_html=True)
     with right:
         st.markdown("""<p style="text-align: center; font-weight:bold">VoltDB</p>""",unsafe_allow_html=True)
         st.write("VoltDB is a commercial in-memory DBMS that is scalable and ACID-compliant. VoltDB is designed to be a NewSQL relational database to work with mainly OLTP queries. It is designed to be a distributed database with sharding and data replication. It has both a commercial version and an open-source community version.")
-        if st.button('VoltDB Doc'):
-            webbrowser.open_new_tab("https://docs.voltdb.com/")
+        st.markdown("""
+            <style>
+                .button {
+                position: relative;
+                background-color: rgb(255, 255, 255);
+                border: none;
+                font-size: inherit;
+                font-family: inherit;
+                font-weight: 200;
+                padding: 0.25rem 0.75rem;
+                border-radius: 0.40rem;
+                margin: 0px;
+                width: auto;
+                text-align: center;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
+                text-decoration: none;
+                overflow: hidden;
+                cursor: pointer;
+                border: 1px solid rgba(49, 51, 63, 0.2);
+                }
+                .button:hover{
+                    border: 1px solid #FF4B4B;
+                    color : #FF4B4B;
+                }
+                .button:after {
+                content: "";
+                background: #FF4B4B;
+                display: block;
+                position: absolute;
+                padding-top: 300%;
+                padding-left: 350%;
+                margin-left: -20px!important;
+                margin-top: -120%;
+                opacity: 0;
+                transition: all 0.8s
+                }
+                .button:focus {
+                    box-shadow: rgb(255 75 75 / 50%) 0px 0px 0px 0.2rem;
+                    outline: none;
+                }
+                .button:active:after {
+                padding: 0;
+                margin: 0;
+                opacity: 1;
+                transition: 0s
+                }
+            </style>
+            <a href="https://docs.voltdb.com/"><button class="button">VoltDB Doc</button></a>
+            """,unsafe_allow_html=True)
 st.write("---")
 st.markdown("""#### 5.  Version Control""")
 st.markdown("""When certain libraries are added to each application, it gets updated in a period which in turn creates a new version of it. Using Git is a very good practice if you’re working on applications. Git is an open-source platform where the entire code exists from the initial time. It is secure, flexible, easy to edit, and restores the code. It has repositories where all files including the codebase are saved and one can make changes according to the requirement. Anyone can collaborate and make changes accordingly.""")
