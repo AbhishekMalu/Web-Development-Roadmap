@@ -1118,3 +1118,42 @@ with st.container():
                     """,unsafe_allow_html=True)
     with right:
         st_lottie(lottie_coding, key="coding" , height=300)
+    
+st.markdown("""
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """,unsafe_allow_html=True)
+
+st.write("---")
+with st.container():
+    left, center, right = st.columns(3)
+    with left:
+        st.markdown("""<p style="text-align: center;"><img src="https://media-exp1.licdn.com/dms/image/C4D03AQEn32MBmUBDmw/profile-displayphoto-shrink_800_800/0/1658657491591?e=1664409600&v=beta&t=8oPB_fkLyokPqBJQcCQTgOcnsqLHvfRJdxqv9RAhMj8" width="100" height="100" style="border-radius: 100px"/></p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center; font-weight:bold; font-size:25px">Abhishek Malu</p>""",unsafe_allow_html=True)
+        st.markdown("""I am second year Engineering student. I am a Sophomore at MBM Engineering
+                        College, Jodhpur pursuing my B.Tech in Computer Science and Engineering.""")
+    with center:
+        st.markdown("""<p style="text-align: center; font-weight:bold; font-size:35px">Contact me</p>""",unsafe_allow_html=True)
+        st.markdown("""
+                        <p style="text-align: center;color: #434A62"><img src="https://img.icons8.com/ultraviolet/40/000000/phone.png" height="30" width="30">+91-9462770492</p>
+                        <p style="text-align: center;"><a href="mailto:abhimahesh49@gmail.com" style="text-decoration: none;color: #434A62"><img src="https://img.icons8.com/fluency/48/000000/mail.png" height="30" width="30"> abhishekmalu@gmail.com</a></p>
+                    """,unsafe_allow_html=True)
+    with right:
+        st.markdown("""<p style="text-align: center; font-weight:bold; font-size:35px">Follow me</p>""",unsafe_allow_html=True)
+        st.markdown("""
+                    <div style="text-align: center;">
+                        <a href="https://instagram.com/abhishek_maheshwari_14" target="blank"
+                                style="color:red;text-decoration: none;"><img align="center"
+                                    src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
+                                    height="30" width="40" /></a>
+                        <a href="https://www.linkedin.com/in/abhishek-malu-60542921a/" target="blank"><img
+                                    src="https://img.icons8.com/color/48/000000/linkedin-circled--v1.png" /></a>
+                        <a href="https://www.facebook.com/profile.php?id=100053538914796" target="blank"><img align="center"
+                                    src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg"
+                                    alt="abhishek maheshwari" height="30" width="40"></a>
+                        <a href="https://twitter.com/AbhishekMalu4" target="blank"><img
+                                    src="https://img.icons8.com/color/48/000000/twitter-circled--v3.png" /></a>
+                    </div>
+                    """,unsafe_allow_html=True)
