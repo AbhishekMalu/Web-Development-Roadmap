@@ -1137,15 +1137,15 @@ with st.container():
                         College, Jodhpur pursuing my B.Tech in Computer Science and Engineering.""")
         st.markdown("""<br>""",unsafe_allow_html=True)
     with center:
-        st.markdown("""<p style="text-align: center;"><img src="https://t4.ftcdn.net/jpg/03/90/11/51/240_F_390115184_pC62LQRe5VlME5w1I1XgUxm6TeKMlQ7Q.jpg" width="200"/></p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center;"><img src="https://t4.ftcdn.net/jpg/03/90/11/51/240_F_390115184_pC62LQRe5VlME5w1I1XgUxm6TeKMlQ7Q.jpg" width="100"/></p>""",unsafe_allow_html=True)
         st.markdown("""<br>""",unsafe_allow_html=True)
         st.markdown("""
                         <p style="text-align: center;color: #434A62"><img src="https://img.icons8.com/ultraviolet/40/000000/phone.png" height="30" width="30">+91-9462770492</p>
-                        <p style="text-align: center;"><a href="mailto:abhimahesh49@gmail.com" style="text-decoration: none;color: #434A62"><img src="https://img.icons8.com/fluency/48/000000/mail.png" height="30" width="30"> abhishekmalu@gmail.com</a></p>
+                        <p style="text-align: center;"><a href="mailto:abhimahesh49@gmail.com" style="text-decoration: none;color: #434A62"><img src="https://img.icons8.com/fluency/48/000000/mail.png" height="30" width="30"> abhimahesh49@gmail.com</a></p>
                     """,unsafe_allow_html=True)
         st.markdown("""<br>""",unsafe_allow_html=True)
     with right:
-        st.markdown("""<p style="text-align: center;"><img src="https://images.assetsdelivery.com/compings_v2/aquir/aquir2009/aquir200903749.jpg" width="200"/></p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center;"><img src="https://images.assetsdelivery.com/compings_v2/aquir/aquir2009/aquir200903749.jpg" width="100 "/></p>""",unsafe_allow_html=True)
         st.markdown("""<br>""",unsafe_allow_html=True)
         st.markdown("""
                     <div style="text-align: center;">
