@@ -3,7 +3,6 @@ import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
 
-
 def load_lottieurl(url):
     r = requests.get(url)
     if r.status_code != 200:
@@ -14,9 +13,9 @@ st.set_page_config(layout="wide")
 st.markdown("""<h1 style="text-align: center;text-shadow: 1px 2px #FF0000;">Roadmap to Become a Web Developer</h1>""",unsafe_allow_html=True)
 st.markdown("""
                 <div style="display:flex;justify-content:center;">
-                    <img src="http://www.clipartbest.com/cliparts/RiA/rGq/RiArGq6iL.gif" width="45" height="45"/>
-                    <img src="http://www.clipartbest.com/cliparts/RiA/rGq/RiArGq6iL.gif" width="45" height="45"/>
-                    <img src="http://www.clipartbest.com/cliparts/RiA/rGq/RiArGq6iL.gif" width="45" height="45"/>
+                    <img src="https://smashrxllc.com/wp-content/uploads/2021/03/4TbK6z8jc.gif" width="45" height="45"/>
+                    <img src="https://smashrxllc.com/wp-content/uploads/2021/03/4TbK6z8jc.gif" width="45" height="45"/>
+                    <img src="https://smashrxllc.com/wp-content/uploads/2021/03/4TbK6z8jc.gif" width="45" height="45"/>
                 </div>
             """,unsafe_allow_html=True)
 st.write(" ")
