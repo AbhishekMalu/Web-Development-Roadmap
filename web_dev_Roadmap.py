@@ -11,7 +11,15 @@ def load_lottieurl(url):
     return r.json()
 
 st.set_page_config(layout="wide")
-st.markdown("""## Roadmap to Become a Web Developer""")
+st.markdown("""<h1 style="text-align: center;text-shadow: 1px 2px #FF0000;">Roadmap to Become a Web Developer</h1>""",unsafe_allow_html=True)
+st.markdown("""
+                <div style="display:flex;justify-content:center;">
+                    <img src="http://www.clipartbest.com/cliparts/RiA/rGq/RiArGq6iL.gif" width="45" height="45"/>
+                    <img src="http://www.clipartbest.com/cliparts/RiA/rGq/RiArGq6iL.gif" width="45" height="45"/>
+                    <img src="http://www.clipartbest.com/cliparts/RiA/rGq/RiArGq6iL.gif" width="45" height="45"/>
+                </div>
+            """,unsafe_allow_html=True)
+st.write(" ")
 st.markdown("""<p style="font-weight:510">To become a full-stack web developer, you must learn a wide range of skills. Finding the right learning path and achieving a quick result can be difficult for tyros. At first, visual perception may be overwhelming in understanding what you need to learn and how everything fits together at the end.</p>""",unsafe_allow_html=True)
 
 st.markdown("""This post includes links to great learning resources, as well as a brief description of the relevant topics, so you can get started quickly expanding your skill set.""")
@@ -1131,7 +1139,7 @@ st.markdown("""<br>""",unsafe_allow_html=True)
 with st.container():
     left, center, right = st.columns(3)
     with left:
-        st.markdown("""<p style="text-align: center;"><img src="https://media-exp1.licdn.com/dms/image/C4D03AQEn32MBmUBDmw/profile-displayphoto-shrink_800_800/0/1658657491591?e=1664409600&v=beta&t=8oPB_fkLyokPqBJQcCQTgOcnsqLHvfRJdxqv9RAhMj8" width="100" height="100" style="border-radius: 100px"/></p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center;"><img src="https://scontent.fudr1-1.fna.fbcdn.net/v/t39.30808-6/297954242_705783861216238_8981107263260058133_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=L1nh5hudmG8AX-iyP8I&_nc_ht=scontent.fudr1-1.fna&oh=00_AT_nSszx1IsekXaj9YKO-tyt602JVktjXm72ELnkfWyB5Q&oe=62F46314" width="100" height="100" style="border-radius: 100px"/></p>""",unsafe_allow_html=True)
         st.markdown("""<p style="text-align: center; font-weight:bold; font-size:25px">Abhishek Malu</p>""",unsafe_allow_html=True)
         st.markdown("""I am second year Engineering student. I am a Sophomore at MBM Engineering
                         College, Jodhpur pursuing my B.Tech in Computer Science and Engineering.""")
