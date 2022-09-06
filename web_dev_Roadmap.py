@@ -1138,7 +1138,7 @@ st.markdown("""<br>""",unsafe_allow_html=True)
 with st.container():
     left, center, right = st.columns(3)
     with left:
-        st.markdown("""<p style="text-align: center;"><img src="https://scontent.fudr1-1.fna.fbcdn.net/v/t39.30808-6/297954242_705783861216238_8981107263260058133_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=L1nh5hudmG8AX-iyP8I&_nc_ht=scontent.fudr1-1.fna&oh=00_AT_nSszx1IsekXaj9YKO-tyt602JVktjXm72ELnkfWyB5Q&oe=62F46314" width="100" height="100" style="border-radius: 100px"/></p>""",unsafe_allow_html=True)
+        st.markdown("""<p style="text-align: center;"><img src="https://assets.leetcode.com/users/avatars/avatar_1640260283.png" width="100" height="100" style="border-radius: 100px"/></p>""",unsafe_allow_html=True)
         st.markdown("""<p style="text-align: center; font-weight:bold; font-size:25px">Abhishek Malu</p>""",unsafe_allow_html=True)
         st.markdown("""I am second year Engineering student. I am a Sophomore at MBM Engineering
                         College, Jodhpur pursuing my B.Tech in Computer Science and Engineering.""")
