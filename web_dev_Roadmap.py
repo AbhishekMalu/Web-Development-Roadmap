@@ -1140,7 +1140,7 @@ with st.container():
     with left:
         st.markdown("""<p style="text-align: center;"><img src="https://assets.leetcode.com/users/avatars/avatar_1640260283.png" width="100" height="100" style="border-radius: 100px"/></p>""",unsafe_allow_html=True)
         st.markdown("""<p style="text-align: center; font-weight:bold; font-size:25px">Abhishek Malu</p>""",unsafe_allow_html=True)
-        st.markdown("""I am third year Engineering student. I am a Sophomore at MBM Engineering
+        st.markdown("""I am Final year Engineering student. I am a Sophomore at MBM Engineering
                         College, Jodhpur pursuing my B.Tech in Computer Science and Engineering.""")
         st.markdown("""<br>""",unsafe_allow_html=True)
     with center:
